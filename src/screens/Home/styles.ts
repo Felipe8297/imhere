@@ -6,7 +6,6 @@ export const styles = StyleSheet.create({
     backgroundColor: '#131016',
     padding: 24,
   },
-
   eventName: {
     color: '#fff',
     fontSize: 24,
@@ -18,22 +17,22 @@ export const styles = StyleSheet.create({
     fontSize: 16,
   },
   input: {
+    flex: 1,
     height: 56,
     backgroundColor: '#1f1e25',
     borderRadius: 5,
-    color: '#fff',
+    color: '#ffff',
     padding: 16,
     fontSize: 16,
-    marginTop: 22,
+    marginRight: 12,
   },
   button: {
-    backgroundColor: '#065f46',
     width: 56,
     height: 56,
     borderRadius: 5,
-    justifyContent: 'center',
+    backgroundColor: '#065f46',
     alignItems: 'center',
-    marginTop: 8,
+    justifyContent: 'center',
   },
   plusIcon: {
     color: '#fff',
@@ -41,5 +40,7 @@ export const styles = StyleSheet.create({
   form: {
     width: '100%',
     flexDirection: 'row',
+    marginTop: 36,
+    marginBottom: 42,
   },
 })
